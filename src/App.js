@@ -2,12 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/layout/Navbar";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  NavLink,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Address from "./components/pages/Address";
 import About from "./components/pages/About";
